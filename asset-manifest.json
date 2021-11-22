@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cheeky-chicken/static/css/main.1591b2bc.chunk.css",
+    "main.js": "/cheeky-chicken/static/js/main.63b98498.chunk.js",
+    "main.js.map": "/cheeky-chicken/static/js/main.63b98498.chunk.js.map",
+    "runtime-main.js": "/cheeky-chicken/static/js/runtime-main.4e8bd92f.js",
+    "runtime-main.js.map": "/cheeky-chicken/static/js/runtime-main.4e8bd92f.js.map",
+    "static/js/2.04fd3388.chunk.js": "/cheeky-chicken/static/js/2.04fd3388.chunk.js",
+    "static/js/2.04fd3388.chunk.js.map": "/cheeky-chicken/static/js/2.04fd3388.chunk.js.map",
+    "index.html": "/cheeky-chicken/index.html",
+    "static/css/main.1591b2bc.chunk.css.map": "/cheeky-chicken/static/css/main.1591b2bc.chunk.css.map",
+    "static/js/2.04fd3388.chunk.js.LICENSE.txt": "/cheeky-chicken/static/js/2.04fd3388.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/cheeky-chicken/static/media/storeFront2.2b12ef82.png",
+    "static/media/burger.7429ceac.jpg": "/cheeky-chicken/static/media/burger.7429ceac.jpg",
+    "static/media/fries.be41b38c.webp": "/cheeky-chicken/static/media/fries.be41b38c.webp",
+    "static/media/kidsDeal.59747079.webp": "/cheeky-chicken/static/media/kidsDeal.59747079.webp",
+    "static/media/tabicon.96340212.png": "/cheeky-chicken/static/media/tabicon.96340212.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e8bd92f.js",
+    "static/js/2.04fd3388.chunk.js",
+    "static/css/main.1591b2bc.chunk.css",
+    "static/js/main.63b98498.chunk.js"
+  ]
+}
