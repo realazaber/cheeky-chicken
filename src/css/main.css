@@ -1,7 +1,7 @@
 :root {
     --background: whitesmoke;
-    --primary: rgb(241, 160, 8);
-    --secondary: rgba(32, 32, 32, 0.9);
+    --primary: #ef8a17;
+    --secondary: rgba(51, 51, 51, 0.9);
 }
 
 body {
@@ -16,7 +16,15 @@ body {
     font-family: sans-serif;
 }
 
+#disclaimer {
+    margin-top: 20vh;
+}
 
+.disclaimerLink {
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
 
 main {
     background-color: var(--background);
@@ -28,6 +36,29 @@ main {
     text-align: center;
 }
 
+#menuOrder {
+    border: none;
+    padding: 20px;
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+    transition-duration: 500ms;
+}
+
+#menuOrder:hover {
+    background-color: #e69437;
+    border-radius: 15px;
+    transition-duration: 500ms;
+}
+
+#menuOrder:active {
+    background-color: var(--primary);
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+ 
 h1 {
     color: var(--primary);
 }

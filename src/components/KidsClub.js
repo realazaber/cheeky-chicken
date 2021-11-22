@@ -11,11 +11,11 @@ function KidsClub() {
                 <h1>
                     Cool Kids Club
                     </h1>
-                    <h3>
+                    <h2>
                         We offer a special deal for kids meals!
                         <br />
                         With every kids meal you will get a free activity book and crayons.
-                    </h3>
+                    </h2>
                     <img src={kidsDeal} height="550px" alt="Kids Deal" />
                     
                 </main>

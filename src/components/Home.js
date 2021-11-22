@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Nav from './Nav';
 import logo from "../imgs/tabicon.png";
+import MenuOrder from './MenuOrder';
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
                     <h2>
                         The best chicken and chips in Geelong.
                     </h2>
+                    <MenuOrder />
                     <h4>
                     <br />
                         Located in Westfield Geelong, 
