@@ -19,8 +19,29 @@ body {
 
 
 main {
-    
     background-color: var(--background);
+    opacity: 0.9;
+    padding: 20px 0px;
+    margin-top: 50px;
+    width: 80%;
+    margin: 55px auto;
+    
+    text-align: center;
+}
+
+h1 {
+    color: var(--primary);
+}
+
+h2, h4 {
+    color: var(--secondary);
+}
+
+#home {
+    background-image: url("../imgs/store_front.webp");
+    background-size: cover;
+    height: 94vh;
+    width: 100vw;
 }
 
 /* Desktop */
@@ -35,6 +56,7 @@ main {
         text-align: center;
         padding-bottom: 5px;
         opacity: 0.9;
+        z-index: 3;
 
     }
 

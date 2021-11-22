@@ -1,34 +1,36 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom';
+
 import logo from "../imgs/tabicon.png";
 
 
 function Nav() {
     return (
         <nav>
-            <a href="#">
-                <img src={logo} />
+            <a href="#logo">
+                <img src={logo} alt="logo" />
             </a>
 
             <div id="links">
-                <a href="#">
+                <Link to="/home">
                     Home  
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/our-story">
                     Our story  
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/kids-club">
                     Kids Club  
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/catering">
                     Catering  
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/menu">
                     Menu  
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/contact">
                     Contact
-                </a>
+                </Link>
             </div>
         </nav>
     )

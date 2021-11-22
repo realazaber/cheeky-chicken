@@ -10,11 +10,11 @@ function Disclaimer() {
                 This is just a demo of a redone version of the website.
                 
             </h1>
-            <Link to="/cheeky-chicken">
+            <Link to="/home">
                 Proceed to demo site.
             </Link>
             <br />
-            <a href="https://www.cheekychicken.com.au/" target="_blank">Link to real Cheeky Chicken.</a>
+            <a href="https://www.cheekychicken.com.au/" target="_blank" rel="noreferrer">Link to real Cheeky Chicken.</a>
         </div>
     )
 }

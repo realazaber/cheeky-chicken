@@ -9,16 +9,20 @@ import Menu from "./components/Menu";
 import Contact from "./components/Contact";
 import { Fragment } from "react";
 
-import { Router, Routes, Route } from "react-router-dom"
+import { BrowserRouter , Routes, Route } from "react-router-dom";
 
 function App() {
   return (    
-      <Router>
-        <Routes>
-          <Route path="/" element={<Disclaimer />} />
+    <Fragment>
+      <BrowserRouter>
+        <Routes>    
           <Route path="/cheeky-chicken" element={<Disclaimer />} />
+          <Route path="/" element={<Disclaimer />} />
+          <Route path="/home" element={<Home />} />
         </Routes>
-      </Router>
+      </BrowserRouter>
+      
+    </Fragment>
   );
 }
 
