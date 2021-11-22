@@ -34,9 +34,12 @@ main {
     margin: 56px auto;
     
     text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
 }
 
-#menuOrder {
+#menuOrder, #contactBtn {
     border: none;
     padding: 20px;
     background-color: var(--primary);
@@ -45,15 +48,16 @@ main {
     border-radius: 10px;
     font-size: 20px;
     transition-duration: 500ms;
+    margin: 10px 10px;
 }
 
-#menuOrder:hover {
+#menuOrder:hover, #contactBtn:hover {
     background-color: #e69437;
     border-radius: 15px;
     transition-duration: 500ms;
 }
 
-#menuOrder:active {
+#menuOrder:active, #contactBtn:active {
     background-color: var(--primary);
     border-radius: 20px;
     transition-duration: 500ms;
@@ -67,7 +71,7 @@ h2, h3, h4 {
     color: var(--secondary);
 }
 
-#home, #story, #kidsClub {
+#home, #story, #kidsClub, #catering, #menu, #contact {
     position: absolute;
     top: 0;
     left: 0;
@@ -90,11 +94,10 @@ h2, h3, h4 {
     background-image: url("../imgs/backgrounds/kidsBackground.png");
 }
 
-#home main, #story main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#catering {
+    background-image: url("../imgs/foods/bbq\ chicken.jpg");
 }
+
 
 
 

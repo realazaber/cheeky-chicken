@@ -20,6 +20,9 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/our-story" element={<Story />} />
           <Route path="/kids-club" element={<KidsClub />} />
+          <Route path="/catering" element={<Catering />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
       

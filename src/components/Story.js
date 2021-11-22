@@ -29,7 +29,7 @@ function Story() {
                     <br /><br />
                         *except for flame grilled pieces
                     </h4>
-                    <img src={logo} />
+                    <img src={logo} alt="Logo"/>
                     <h2>The best chicken and chips in Geelong</h2>
                 </main>
             </div>
