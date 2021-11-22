@@ -8,9 +8,9 @@ import logo from "../imgs/tabicon.png";
 function Nav() {
     return (
         <nav>
-            <a href="#logo">
+            <Link to="/home">
                 <img src={logo} alt="logo" />
-            </a>
+            </Link>
 
             <div id="links">
                 <Link to="/home">

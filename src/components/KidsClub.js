@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Nav from './Nav'
 
 function KidsClub() {
     return (
-        <div>
-            
-        </div>
+        <Fragment>
+            <Nav />
+            <div id="kidsClub">
+                <main>
+                    
+                </main>
+            </div>
+        </Fragment>
     )
 }
 

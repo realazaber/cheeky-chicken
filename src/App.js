@@ -1,6 +1,5 @@
 import "./css/main.css";
 import Disclaimer from "./components/Disclaimer";
-import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Story from "./components/Story";
 import KidsClub from "./components/KidsClub";
@@ -19,6 +18,8 @@ function App() {
           <Route path="/cheeky-chicken" element={<Disclaimer />} />
           <Route path="/" element={<Disclaimer />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/our-story" element={<Story />} />
+          <Route path="/kids-club" element={<KidsClub />} />
         </Routes>
       </BrowserRouter>
       

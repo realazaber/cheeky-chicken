@@ -21,10 +21,9 @@ body {
 main {
     background-color: var(--background);
     opacity: 0.9;
-    padding: 20px 0px;
-    margin-top: 50px;
+    padding: 20px;
     width: 80%;
-    margin: 55px auto;
+    margin: 56px auto;
     
     text-align: center;
 }
@@ -37,11 +36,34 @@ h2, h4 {
     color: var(--secondary);
 }
 
-#home {
-    background-image: url("../imgs/store_front.webp");
+#home, #story {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     background-size: cover;
-    height: 94vh;
+    height: 100vh;
     width: 100vw;
+}
+
+#home {
+    background-image: url("../imgs/backgrounds/storeFront.webp");
+
+}
+
+#story {
+    background-image: url("../imgs/backgrounds/salad.jpg");
+}
+
+#home main, #story main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    max-width: 90%;
+    
 }
 
 /* Desktop */
