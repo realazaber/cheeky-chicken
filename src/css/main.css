@@ -73,7 +73,7 @@ h1 {
     color: var(--primary);
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6, label, input, textarea {
     color: var(--secondary);
 }
 
@@ -101,11 +101,15 @@ h2, h3, h4, h5, h6 {
 }
 
 #catering {
-    background-image: url("../imgs/foods/bbq\ chicken.jpg");
+    background-image: url("../imgs/backgrounds/bbq\ chicken.jpg");
 }
 
 #menu {
     background-image: url("../imgs/backgrounds/storeFront2.png");
+}
+
+#contact {
+    background-image: url("../imgs/backgrounds/burgerwfries.jpeg");
 }
 
 #menu main {
@@ -116,6 +120,31 @@ h2, h3, h4, h5, h6 {
 
 #menu main img {
     margin: auto;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+input {
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+#contact main #contactBtn {
+    padding: 15px 20px;
+}
+
+iframe {
+    border: none;
+    border-radius: 10px;
 }
 
 
