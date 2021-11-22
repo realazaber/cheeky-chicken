@@ -16,7 +16,7 @@ body {
     font-family: sans-serif;
 }
 
-#homeImages {
+.sideBySide {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -128,20 +128,55 @@ h2, h3, h4, h5, h6, label, input, textarea {
     margin: auto;
 }
 
+form {
+    margin-right: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 label {
     font-weight: bold;
     font-size: 20px;
     width: 200px;
     margin-right: 10px;
+    text-align: left;
 }
 
 input {
     border: 1px solid grey;
     padding: 5px 10px;
+    width: 100%;
+    height: 20px;
+}
+
+
+input, textarea {
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+form {
+    
+    width: 30%;
+}
+
+form #contactBtn {
+    
+    width: 80%;
+    margin-left: 55px;
+    
 }
 
 textarea {
     resize: none;
+}
+
+.inputField {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
 }
 
 #contact main #contactBtn {

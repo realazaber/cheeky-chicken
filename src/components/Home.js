@@ -14,7 +14,7 @@ function Home() {
                     <h1>
                         Welcome to Cheeky Chicken
                     </h1>
-                    <div id="homeImages">
+                    <div className="sideBySide">
                         <img src={logo} alt="logo" />
                         <Map />
                     </div>
