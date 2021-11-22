@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cheeky-chicken/static/css/main.1591b2bc.chunk.css",
-    "main.js": "/cheeky-chicken/static/js/main.7ff52a78.chunk.js",
-    "main.js.map": "/cheeky-chicken/static/js/main.7ff52a78.chunk.js.map",
+    "main.js": "/cheeky-chicken/static/js/main.8f55c62b.chunk.js",
+    "main.js.map": "/cheeky-chicken/static/js/main.8f55c62b.chunk.js.map",
     "runtime-main.js": "/cheeky-chicken/static/js/runtime-main.4e8bd92f.js",
     "runtime-main.js.map": "/cheeky-chicken/static/js/runtime-main.4e8bd92f.js.map",
     "static/js/2.04fd3388.chunk.js": "/cheeky-chicken/static/js/2.04fd3388.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.4e8bd92f.js",
     "static/js/2.04fd3388.chunk.js",
     "static/css/main.1591b2bc.chunk.css",
-    "static/js/main.7ff52a78.chunk.js"
+    "static/js/main.8f55c62b.chunk.js"
   ]
 }
