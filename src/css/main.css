@@ -343,6 +343,17 @@ iframe {
         margin: 10px auto;
     }
 
+    #story h1 {
+        margin-top: -10px;
+    }
+
+    #story img, #story h2 {
+        display: none;
+        visibility: hidden;
+    }
+
+    
+
 
 }
 
