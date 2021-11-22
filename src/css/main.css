@@ -39,7 +39,12 @@ main {
     
 }
 
+#menuOrderLink {
+    width: fit-content;
+}
+
 #menuOrder, #contactBtn {
+
     border: none;
     padding: 20px;
     background-color: var(--primary);
@@ -52,6 +57,7 @@ main {
 }
 
 #menuOrder:hover, #contactBtn:hover {
+    cursor: pointer;
     background-color: #e69437;
     border-radius: 15px;
     transition-duration: 500ms;
@@ -67,7 +73,7 @@ h1 {
     color: var(--primary);
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5, h6 {
     color: var(--secondary);
 }
 
@@ -96,6 +102,20 @@ h2, h3, h4 {
 
 #catering {
     background-image: url("../imgs/foods/bbq\ chicken.jpg");
+}
+
+#menu {
+    background-image: url("../imgs/backgrounds/storeFront2.png");
+}
+
+#menu main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu main img {
+    margin: auto;
 }
 
 

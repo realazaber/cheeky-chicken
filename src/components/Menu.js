@@ -1,10 +1,35 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
+import Nav from './Nav';
+import MenuOrder from "./MenuOrder";
+
+import burger from "../imgs/foods/burger.jpg";
 function Menu() {
     return (
-        <div>
-            
-        </div>
+        <Fragment>
+            <Nav />
+            <div id="menu">
+                <main>
+                    <h1>
+                        Menu
+                    </h1>
+                    <h2>
+                        Our menu is filled chicken that is not only
+                        delicious but healthy too thanks to us only 
+                        using 
+                        <br />
+                        pure breast meat, and not adding any 
+                        preservatives or anything artificial. 
+                        <br />
+                        Take a look at our menu here.
+                    </h2>
+
+                    <MenuOrder />
+                    <img src={burger} alt="Burger" width="500px"/>
+                    
+                </main>
+            </div>
+        </Fragment>
     )
 }
 
