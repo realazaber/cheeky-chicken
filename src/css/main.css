@@ -332,10 +332,8 @@ iframe {
 
     main {
         margin: auto;
-        max-height: 90vh;
+        max-height: 100vh;
     }
-
-    
 
     .sideBySide img {
         width: 300px;
@@ -343,13 +341,18 @@ iframe {
         margin: 10px auto;
     }
 
-    #story h1 {
+    #story h1, #kidsClub h1 {
         margin-top: -10px;
     }
 
     #story img, #story h2 {
         display: none;
         visibility: hidden;
+    }
+
+    #kidsClub img {
+        width: 80%;
+        height: 40%;
     }
 
     
