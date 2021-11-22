@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Nav from './Nav';
 import logo from "../imgs/tabicon.png";
+import Map from './Map';
 import MenuOrder from './MenuOrder';
 
 function Home() {
@@ -13,7 +14,10 @@ function Home() {
                     <h1>
                         Welcome to Cheeky Chicken
                     </h1>
-                    <img src={logo} alt="logo" />
+                    <div id="homeImages">
+                        <img src={logo} alt="logo" />
+                        <Map />
+                    </div>
                     <h2>
                         The best chicken and chips in Geelong.
                     </h2>

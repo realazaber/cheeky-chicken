@@ -22,11 +22,11 @@ function Nav() {
                 <Link to="/kids-club">
                     Kids Club  
                 </Link>
-                <Link to="/catering">
-                    Catering  
-                </Link>
                 <Link to="/menu">
                     Menu  
+                </Link>
+                <Link to="/catering">
+                    Catering  
                 </Link>
                 <Link to="/contact">
                     Contact

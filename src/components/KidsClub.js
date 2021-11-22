@@ -9,7 +9,7 @@ function KidsClub() {
             <div id="kidsClub">
                 <main>
                 <h1>
-                    Cool Kids Club
+                    Cheeky Kids Club
                     </h1>
                     <h2>
                         We offer a special deal for kids meals!
