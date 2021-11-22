@@ -52,7 +52,7 @@ main {
         justify-content: center;
     }
 
-    a {
+    #links a {
         color: white;
         font-weight: bold;
         font-size: 30px;

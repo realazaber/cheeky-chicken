@@ -6,7 +6,9 @@ import logo from "../imgs/tabicon.png";
 function Nav() {
     return (
         <nav>
-            <img src={logo} />
+            <a href="#">
+                <img src={logo} />
+            </a>
 
             <div id="links">
                 <a href="#">
