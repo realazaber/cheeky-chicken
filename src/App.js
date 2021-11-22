@@ -15,14 +15,15 @@ function App() {
     <Fragment>
       <BrowserRouter>
         <Routes>    
-          <Route path="/cheeky-chicken" exact element={<Disclaimer />} />
+          <Route path="/cheeky-chicken/cheeky-chicken" exact element={<Disclaimer />} />
+          <Route path="/cheeky-chicken/" exact element={<Disclaimer />} />
           <Route path="/" exact element={<Disclaimer />} />
-          <Route path="/home" exact element={<Home />} />
-          <Route path="/our-story" exact element={<Story />} />
-          <Route path="/kids-club" exact element={<KidsClub />} />
-          <Route path="/catering" exact element={<Catering />} />
-          <Route path="/menu" exact element={<Menu />} />
-          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/cheeky-chicken/home" exact element={<Home />} />
+          <Route path="/cheeky-chicken/our-story" exact element={<Story />} />
+          <Route path="/cheeky-chicken/kids-club" exact element={<KidsClub />} />
+          <Route path="/cheeky-chicken/catering" exact element={<Catering />} />
+          <Route path="/cheeky-chicken/menu" exact element={<Menu />} />
+          <Route path="/cheeky-chicken/contact" exact element={<Contact />} />
         </Routes>
       </BrowserRouter>
       
