@@ -254,9 +254,7 @@ iframe {
 
 /* Mobile */
 @media only screen and (max-width: 1300px) {
-    .sideBySide {
-        flex-direction: column;
-    }
+
 
     #mobileNav {
 
@@ -341,7 +339,7 @@ iframe {
         margin: 10px auto;
     }
 
-    #story h1, #kidsClub h1, #menu h1 {
+    #story h1, #kidsClub h1, #menu h1, #contact h1 {
         margin-top: -10px;
     }
 
@@ -362,6 +360,29 @@ iframe {
     #catering button {
         margin-top: 3px;
     }
+
+    .sideBySide {
+        flex-direction: column;
+    }
+
+    #contact h2 {
+        font-size: 20px;
+    }
+
+    #contact form {
+        width: 100%;
+    }
+
+    #contact textarea {
+        width: 105%;
+        height: 80px;
+    }
+
+    #contact form button {
+        margin: 10px auto;
+    }
+
+  
 
     
 
