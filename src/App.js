@@ -13,16 +13,16 @@ import { BrowserRouter , Routes, Route } from "react-router-dom";
 function App() {
   return (    
     <Fragment>
-      <BrowserRouter>
+      <BrowserRouter basename="/cheeky-chicken">
         <Routes>    
-          <Route path="/cheeky-chicken" element={<Disclaimer />} />
-          <Route path="/" element={<Disclaimer />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/our-story" element={<Story />} />
-          <Route path="/kids-club" element={<KidsClub />} />
-          <Route path="/catering" element={<Catering />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/cheeky-chicken" exact element={<Disclaimer />} />
+          <Route path="/" exact element={<Disclaimer />} />
+          <Route path="/home" exact element={<Home />} />
+          <Route path="/our-story" exact element={<Story />} />
+          <Route path="/kids-club" exact element={<KidsClub />} />
+          <Route path="/catering" exact element={<Catering />} />
+          <Route path="/menu" exact element={<Menu />} />
+          <Route path="/contact" exact element={<Contact />} />
         </Routes>
       </BrowserRouter>
       
