@@ -1,7 +1,7 @@
 :root {
     --background: whitesmoke;
     --primary: rgb(241, 160, 8);
-    --secondary: rgba(0, 0, 0, 0.9);
+    --secondary: rgba(32, 32, 32, 0.9);
 }
 
 body {
@@ -32,11 +32,11 @@ h1 {
     color: var(--primary);
 }
 
-h2, h4 {
+h2, h3, h4 {
     color: var(--secondary);
 }
 
-#home, #story {
+#home, #story, #kidsClub {
     position: absolute;
     top: 0;
     left: 0;
@@ -55,16 +55,17 @@ h2, h4 {
     background-image: url("../imgs/backgrounds/salad.jpg");
 }
 
+#kidsClub {
+    background-image: url("../imgs/backgrounds/kidsBackground.png");
+}
+
 #home main, #story main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-h4 {
-    max-width: 90%;
-    
-}
+
 
 /* Desktop */
 @media only screen and (min-width: 1000px) {
