@@ -6,15 +6,19 @@ import fries from "../imgs/foods/fries.webp";
 
 import { Link } from 'react-router-dom';
 
+import Fade from 'react-reveal/Fade';
+
 function Catering() {
     return (
         <Fragment>
             <Nav />
             <div id="catering">
                 <main>
-                    <h1>
-                        Cheeky Catering
-                    </h1>
+                    <Fade top>
+                        <h1>
+                            Cheeky Catering
+                        </h1>
+                    </Fade>
                     <h4>
                     <p>
                         Cheeky Chicken has the best food solutions for your party or function, any size any time!

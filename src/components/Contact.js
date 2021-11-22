@@ -2,6 +2,8 @@ import React, { Fragment } from 'react'
 import Nav from "./Nav.js";
 import Map from './Map.js';
 
+import Fade from 'react-reveal/Fade';
+
 function Contact() {
 
 
@@ -10,9 +12,11 @@ function Contact() {
             <Nav />
             <div id="contact">
                 <main>
-                    <h1>
-                        Contact us
-                    </h1>
+                    <Fade top>
+                        <h1>
+                            Contact us
+                        </h1>
+                    </Fade>
                     <h2>
                     For questions about any of our products, or help with 
                     placing your order, don't hesitate to contact us.

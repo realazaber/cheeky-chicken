@@ -4,15 +4,20 @@ import Nav from './Nav';
 import MenuOrder from "./MenuOrder";
 
 import burger from "../imgs/foods/burger.jpg";
+
+import Fade from 'react-reveal/Fade';
+
 function Menu() {
     return (
         <Fragment>
             <Nav />
             <div id="menu">
                 <main>
-                    <h1>
-                        Menu
-                    </h1>
+                    <Fade top>
+                        <h1>
+                            Menu
+                        </h1>
+                    </Fade>
                     <h2>
                         Our menu is filled chicken that is not only
                         delicious but healthy too thanks to us only 

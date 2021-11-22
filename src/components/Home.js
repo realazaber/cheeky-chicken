@@ -4,6 +4,8 @@ import logo from "../imgs/tabicon.png";
 import Map from './Map';
 import MenuOrder from './MenuOrder';
 
+import Fade from 'react-reveal/Fade';
+
 function Home() {
     return (
 
@@ -11,11 +13,14 @@ function Home() {
             {<Nav />}
             <div id="home">
                 <main>
-                    <h1>
-                        Welcome to Cheeky Chicken
-                    </h1>
+                    <Fade top>
+                        <h1>
+                            Welcome to Cheeky Chicken
+                        </h1>
+                    </Fade>
+                    
                     <div className="sideBySide">
-                        <img src={logo} alt="logo" />
+                        <Fade><img src={logo} alt="logo" /></Fade>
                         <Map />
                     </div>
                     <h2>
@@ -23,7 +28,8 @@ function Home() {
                     </h2>
                     <MenuOrder />
                     <h4>
-                    <br />
+                    <Fade bottom cascade>
+                        <br />
                         Located in Westfield Geelong, 
                         <br />
                         Level 1, Food Court 
@@ -31,6 +37,7 @@ function Home() {
                         95 Malop St, Geelong VIC 3220
                         <br />
                         Tel: 1300 657 866
+                    </Fade>
                     </h4>
                 </main>        
             </div>
