@@ -350,13 +350,17 @@ iframe {
         visibility: hidden;
     }
 
-    #kidsClub img, #menu img {
+    #kidsClub img, #menu img, #catering img {
         width: 90%;
         height: 50%;
     }
 
     #menu h2 {
         margin-top: -5px;
+    }
+
+    #catering button {
+        margin-top: 3px;
     }
 
     
