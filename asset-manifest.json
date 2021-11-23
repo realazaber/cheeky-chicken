@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cheeky-chicken/static/css/main.1591b2bc.chunk.css",
+    "main.css": "/cheeky-chicken/static/css/main.480903f8.chunk.css",
     "main.js": "/cheeky-chicken/static/js/main.37f6a4a8.chunk.js",
     "main.js.map": "/cheeky-chicken/static/js/main.37f6a4a8.chunk.js.map",
     "runtime-main.js": "/cheeky-chicken/static/js/runtime-main.4e8bd92f.js",
@@ -8,7 +8,7 @@
     "static/js/2.04fd3388.chunk.js": "/cheeky-chicken/static/js/2.04fd3388.chunk.js",
     "static/js/2.04fd3388.chunk.js.map": "/cheeky-chicken/static/js/2.04fd3388.chunk.js.map",
     "index.html": "/cheeky-chicken/index.html",
-    "static/css/main.1591b2bc.chunk.css.map": "/cheeky-chicken/static/css/main.1591b2bc.chunk.css.map",
+    "static/css/main.480903f8.chunk.css.map": "/cheeky-chicken/static/css/main.480903f8.chunk.css.map",
     "static/js/2.04fd3388.chunk.js.LICENSE.txt": "/cheeky-chicken/static/js/2.04fd3388.chunk.js.LICENSE.txt",
     "static/media/main.css": "/cheeky-chicken/static/media/storeFront2.2b12ef82.png",
     "static/media/burger.7429ceac.jpg": "/cheeky-chicken/static/media/burger.7429ceac.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.4e8bd92f.js",
     "static/js/2.04fd3388.chunk.js",
-    "static/css/main.1591b2bc.chunk.css",
+    "static/css/main.480903f8.chunk.css",
     "static/js/main.37f6a4a8.chunk.js"
   ]
 }
